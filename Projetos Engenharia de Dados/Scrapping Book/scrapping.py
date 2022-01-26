@@ -10,7 +10,7 @@ class Scrapping:
     '''
 
     def __init__(self, site): #inicialização da classe
-        self.driver = webdriver.Edge(r'C:\\Users\\ademi\\OneDrive\\Documentos\\Estudos Python\\Projetos Aleatórios\\Projetos Engenharia de Dados\\Scrapping Book\\msedgedriver.exe')
+        self.driver = webdriver.Edge(r'msedgedriver.exe')
         self.driver.get(site)
         print('Inicizaliando Site!')
         sleep(2)
